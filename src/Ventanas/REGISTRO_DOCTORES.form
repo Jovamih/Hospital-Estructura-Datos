@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/doctor.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="227" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="nombre" min="-2" max="-2" attributes="0"/>
+                          <Component id="CODIGO" min="-2" pref="64" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtcodigo" pref="195" max="32767" attributes="0"/>
+                          <Component id="txtnombre" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="espec" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="comboEspecialidad" min="-2" pref="195" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btNuevo" min="-2" pref="149" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btRegistrar" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nombre1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="telefono" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelarea" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txttelefono" max="32767" attributes="0"/>
+                          <Component id="comboArea" pref="199" max="32767" attributes="0"/>
+                          <Component id="txtapellido" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="433" max="-2" attributes="0"/>
+              <Component id="titulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="titulo" min="-2" pref="39" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator4" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nombre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnombre" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="txtapellido" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtcodigo" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="CODIGO" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="telefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txttelefono" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelarea" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="comboEspecialidad" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="espec" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="comboArea" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="117" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btRegistrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btNuevo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="titulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DialogInput" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REGISTRO DE M&#xc9;DICOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboEspecialidad">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="13">
+            <StringItem index="0" value="Sin Seleccionar"/>
+            <StringItem index="1" value="Medicina General"/>
+            <StringItem index="2" value="Cardiolog&#xed;a"/>
+            <StringItem index="3" value="Dermatolog&#xed;a"/>
+            <StringItem index="4" value="Hematolog&#xed;a"/>
+            <StringItem index="5" value="Traumatolog&#xed;a"/>
+            <StringItem index="6" value="Geriatr&#xed;a"/>
+            <StringItem index="7" value="Neumolog&#xed;a"/>
+            <StringItem index="8" value="Nefrolog&#xed;a"/>
+            <StringItem index="9" value="Reumatolog&#xed;a"/>
+            <StringItem index="10" value="Odontolog&#xed;a"/>
+            <StringItem index="11" value="Nutrici&#xf3;n"/>
+            <StringItem index="12" value="Psicolog&#xed;a"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboEspecialidadActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btNuevo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/nuevo.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="   NUEVO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btNuevoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btRegistrar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/Guardar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REGISTRAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btRegistrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CODIGO">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C&#xd3;DIGO: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nombre">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NOMBRE: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="telefono">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TEL&#xc9;FONO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="espec">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ESPECIALIDAD:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcodigo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txttelefono">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nombre1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="APELLIDOS: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelarea">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xc1;REA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboArea">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Sin Seleccionar"/>
+            <StringItem index="1" value="Consulta"/>
+            <StringItem index="2" value="Hospitalizacion"/>
+            <StringItem index="3" value="Emergencia"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboAreaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="c1" green="8f" red="7" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnombre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtapellido">
+    </Component>
+  </SubComponents>
+</Form>
